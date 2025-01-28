@@ -1,9 +1,11 @@
 # CFP
 
-## USUARIOS DE LINUX
+## USERS DE LINUX
 
-|Representatión|Description|
+|Representation|Description|
 |----|---|
 |u| Users:Owners|
 |g| Groups|
 |o| Others|
+
+***
