@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Compilar el programa con NASM
 nasm -f elf64 -o programa.o inital.asm
 
