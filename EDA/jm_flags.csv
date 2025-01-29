@@ -1,9 +1,9 @@
-﻿ID:c1:c2:c3:c4:c5:c6:c7:c8:Name:Continent:Symbols:Shapes:Stripes:Cross:Union-Flag:Text
+﻿ID:c1:c2:c3:c4:c5:c6:c7:c8:"Country Name":"Continent name":Symbols:Shapes:Stripes:Cross:Union-Flag:Text
 AND:35:1:26:0:32:0:0:4:Andorra:Europe:::Vertical:::
 ARE:24:0:0:25:0:0:25:24:United Arab Emirates:Asia:::Horizontal:::
 AFG:28:1:0:33:0:0:33:3:Afghanistan:Asia:::Vertical:::Country
 ATG:50:0:5:0:0:10:25:7:Antigua Barbuda:North America::::::
-ALB:87:0:0:0:0:0:12:0:Andorra:Europe:Bird:::::
+ALB:87:0:0:0:0:0:12:0:Albania:Europe:Bird:::::
 ARM:33:33:0:0:33:0:0:0:Armenia:Asia:::Horizontal:::
 AGO:48:0:4:0:0:0:46:0:Angola:Africa:"Weapon: Agriculture"::Horizontal:::
 ARG:0:2:0:0:0:66:0:31:Argentina:South America:Sun::Horizontal:::
