@@ -59,3 +59,9 @@
     ```bash
     cut -d: -f17 flags.csv | sort | grep -v Text | grep '^$'| wc -l
     ```    
+
+    + Para saber cuantos registros tengo para cada uno de los diferentes valores que hay en la columan 7
+
+    ```bash
+    awk -F";" '{count[$7]++;} END {for (make in count) print make, count[make]}' datos.csv
+    ```    
