@@ -31,17 +31,33 @@ El metadata del fichero es:
 ## ¿Cuantos registros hay en el fichero?
 
 ```bash
-Escribe la linea de comandos bash con la  que has optenido la respuesta
+
+head -n 1 Electric_Vehicle_Population_Data.csv |tr -cd ';'| wc -c
 ```
 
 ## ¿De cuantos estados hay vehículos registrados?
 
+```bash
+tail -n +2 Electric_Vehicle_Population_Data.csv | cut -d';' -f4 | sort | uniq | wc -l
+```
+
 ## En que posición se encuentra la columna con el año de fabricación
+
+```bash
+ head -n 1 Electric_Vehicle_Population_Data.csv | tr ';' '\n' | nl | grep -i "MODEL YEAR"
+```
 
 ## En que año se fabricó el vehículo matriculado en Texas (TX)
 
-## Cual es el modelo de vehículo matriculado en Californía (CA)
+```bash
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$4 ~ /TX/ {print $1}'
+```
 
+
+## Cual es el modelo de vehículo matriculado en Californía (CA)
+```bash
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$4 ~ /CA/ {print $1, $7}'
+```
 ## De cuantas ciudades del estado de Washigthon hay datos en el fichero
 
 ## De los vehículos registrados en la ciudad de Shelton, el que tiene el mayor rango electrico, cuantas millas puede recorrer?
