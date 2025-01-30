@@ -65,3 +65,24 @@
     ```bash
     awk -F";" '{count[$7]++;} END {for (make in count) print make, count[make]}' datos.csv
     ```    
+
+
+
+
+    ## no repitas consultas. Haz un script!!!!
+
+    puedes crear un sript bash para no repetir preguntas, como la de averiguar en que coluna hay una informacion.
+
+    + Averigua dónde está bash en tu máquina 
+    ```bash
+    $ which bash
+    /usr/bin/bash
+    ```
+    usa esa ruta como la  de un guion o script de bash. yo lo llamo **columnas.sh**
+    $ echo "#\!/usr/bin/bash" > columnas.sh
+    $ echo "head -1 flags.csv | sed -e 's/:/:\n/g'| grep -n ':'" >> columnas.sh
+    $ chmod +x columnas.sh
+    $ ./columnas.sh
+
+    Notad el diferente uso del primer **>** y del segundo **>>**.
+    chmod +x le da permisos de ejecuición al guion.
