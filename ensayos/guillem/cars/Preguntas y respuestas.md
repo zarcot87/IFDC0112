@@ -96,33 +96,52 @@ Aquesta és una altra manera on no et surten quines són les ciutats, si no que 
 ```bash
 cut -d";" -f3,11 Electric_Vehicle_Population_Data.csv | grep "Shelton" | sort -t";" -k2 -n | tail -1
 ```
-
+ En aquest cas utilitzem el comando cut per delimitar que cada punt i coma separa els valors, després li dius que només agafi les columnes 3 i 11. Després amb el comando grep (que busca patrons) li diem que només seleccioni les línies que tinguin Shelton. Per ´ltim fem dos comando més, el primer per ordenar i després només per agafar lúltim perquè així triem el que tés més rang de milles; primer amb sort delimitem amb -t";" que els separadors son punt i coma, després amb el -k2 diem que la delimitació és la segona columna (ja que ens queden només dues columnes perquè ho hem tallat abans) i el -n es perquè això s'ha de fer de forma númerica i no alfabètica. Amb el tail -1 només agafem l'última fila.
 
 ## ¿Cuál es el DOL vehicle ID de ese vehículo que alcanza esa distancia máxima?
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+head -1 Electric_Vehicle_Population_Data.csv | sed -e "s/;/\n/g" | grep -n "DOL Vehicle ID"
 ```
+La primera part és per saber que la DOL Vehicle ID és la 14ena fila.
+
+```bash
+cut -d";" -f3,11,14 Electric_Vehicle_Population_Data.csv | grep "Shelton" | sort -t";" -k2 -n | tail -1 | cut -d";" -f3
+```
+La segona part és el comando important, ja que al afegir el número 14 a la part de comando, també deixem la 14ena fila que és la que ens interessa.
+
 ## ¿Cuáles son los fabricantes que tienen más de 4000 vehiculos registrados?
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+ head -1 Electric_Vehicle_Population_Data.csv | sed "s/;/\n/g" | grep -n  Make
 ```
-
-## ¿Cuáles son los fabricantes que tienen más de 4000 vehiculos registrados?
+Utilitzem un altre cop aquest comando per veure a quina columna estan els fabricants, que veiem que és la 7ena.
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+cut -d";" -f7 Electric_Vehicle_Population_Data.csv | sort | uniq -c | awk '$1 > 4000' | nl 
 ```
+Aquí primer tallem la fila 7 (la de tipus de fabricants), després fem "sort" per ordenar-los i posem el comando "uniq -c" perquè compti els valors únics, és a dir els repetits; a continuació amb el comando "awk '$1 > 4000'" triem només els fabricants amb més de 4000 vehicles. Amb això ja hauríem acabat, però afegeixo nl per veure quants n'hi ha, en aquest cas són 6.
 
-## ¿Qué modelo de Nissa es lider en ventas?
+(Si aquí afegim "sort -r" després de uniq i un "head -1" podem veure quin és el que té més venguts.)
+```bash
+cut -d";" -f7 Electric_Vehicle_Population_Data.csv | sort | uniq -c | sort -r | awk '$1 > 4000' | nl | head -1
+``` 
+
+## ¿Qué modelo de Nissan es lider en ventas?
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+head -1 Electric_Vehicle_Population_Data.csv | sed "s/;/\n/g" | nl | grep "Model"
 ```
+Això per veure a quina columna esta el model, en aquesta cas a la 8ena.
+
+```bash
+cut -d";" -f7,8 Electric_Vehicle_Population_Data.csv | grep "NISSAN" | sort -t";" -k2 -r | uniq -c | head -1
+```
+Primer fem cut amb la columna de fabricants i de models, després destriem pels cotxes NISSAN. Fem un sort tenint en compte que els delimitadors són punts i coma i triant la columna 2 "-k2"  i li posem el "-r" perquè ens surti els grans a dalt. POsem el comando uniq amb "c" per contar  i el head -1 per quedar-nos només amb el valor més alt.
 
 ## Ordena de mayor a menor autonomía promedio a los fabricantes
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+head -1 Electric_Vehicle_Population_Data.csv | sed "s/;/\n/g" | nl | grep "Make"
+head -1 Electric_Vehicle_Population_Data.csv | sed "s/;/\n/g" | nl | grep "Electric Range"
 ```
