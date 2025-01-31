@@ -31,44 +31,51 @@ El metadata del fichero es:
 ## ¿Cuántos registros hay en el fichero? 99784
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+$ wc -l Electric_Vehicle_Population_Data.csv 
 ```
 
 ## ¿De cuántos estados hay vehículos registrados? 5
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+$ cut -d';' -f4 Electric_Vehicle_Population_Data.csv | sort | uniq | wc -l
 ```
+
 ## ¿En que posición se encuentra la columna con el año de fabricación? 6
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+$ head -1 Electric_Vehicle_Population_Data.csv  |sed -e 's/;/\n/g' | grep -n -i year
 ```
-## ¿En que año se fabricó el vehículo matriculado en Texas (TX)?
+
+## ¿En que año se fabricó el vehículo matriculado en Texas (TX)? 2019
 
 ```bash
-Escribe la linea de comandos bash con la  que has obtenido la respuesta
+$ cut -d\; -f4,6 Electric_Vehicle_Population_Data.csv | grep TX
 ```
+
 ## ¿Cuál es el modelo de vehículo matriculado en Californía (CA)?
 
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
+
 ## ¿De cuántas ciudades del estado de Washigthon hay datos en el fichero?
 
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
+
 ## De los vehículos registrados en la ciudad de Shelton, el que tiene el mayor rango electrico, ¿cuántas millas puede recorrer?
 
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
+
 ## ¿Cuál es el DOL vehicle ID de ese vehículo que alcanza esa distancia máxima?
 
 ```bash
 Escribe la linea de comandos bash con la  que has obtenido la respuesta
 ```
+
 ## ¿Cuáles son los fabricantes que tienen más de 4000 vehiculos registrados?
 
 ```bash
