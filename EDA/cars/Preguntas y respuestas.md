@@ -59,9 +59,23 @@ tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$4 ~ /TX/ {print $1
 tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$4 ~ /CA/ {print $1, $7}'
 ```
 ## De cuantas ciudades del estado de Washigthon hay datos en el fichero
-
+```bash
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$4 ~ /WA/ {print $4}' | wc -l
+```
 ## De los vehículos registrados en la ciudad de Shelton, el que tiene el mayor rango electrico, cuantas millas puede recorrer?
+```
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$3 ~ /Shelton/ {if ($11 > max) {max=$11; line=$7}} END {print line}'
+```
 
 ## Cual es el DOL vehicle ID de ese vehículo que alcanza esa distancia máxima?
 
+```
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '$3 ~ /Shelton/ {if ($11 > max) {max=$11; line=$14}} END {print line}
+'
+```
+
 ## Cuales son los fabricantes que tienen más de 4000 vehiculos registrados
+
+```
+tail -n +2 Electric_Vehicle_Population_Data.csv | awk -F';' '{print $7}' | sort | uniq -c | awk '$1 > 4000 {print $2, $1}'
+```
