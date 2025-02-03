@@ -48,4 +48,4 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 + editar un archivo :e <nombre>
 + substituir en todo el archivo :% s/original/substitucion/g
 + cambiar una palabra cw (sin los dos puntos. estando encima de la palabra.)
-+ deshacer u
++ deshacer   
