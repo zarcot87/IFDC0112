@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+vit#!/usr/bin/bash
  
 nice -n20 /usr/bin/time -f "00-->%e Sec   %U Sec   %S Sec  " sort one_million.csv > /dev/null &
 /usr/bin/time -f "01-->%e Sec   %U Sec   %S Sec  " sort --parallel=01 one_million.csv > /dev/null &
