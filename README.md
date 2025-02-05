@@ -60,3 +60,18 @@ Ahora voy a hacer unas pruebas de __negrita__, _subrayado_
 
 ### Hay varios manuales de buenas prácticas para documentar los commits
 ### Agrupa los modificaciones relacionadas en un mismo commit 
+
+
+ # Bash grupos y usuarios
+
++ crea un nuevo grupo
+sudo groupadd groupname
+
++ crea un nuevo usuario y añadelo al grupo recien creado
+sudo useradd -g groupname username
+
++ define un nuevo password para un usuario
+sudo passwd username
+
++ verifica a que grupos pertenece un usuario
+groups username
