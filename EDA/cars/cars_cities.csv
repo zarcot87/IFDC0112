@@ -1,0 +1,379 @@
+cars_cities_PK,cars_cities_county_FK,cars_cities_name
+1,1,Othello
+2,1,Ritzville
+3,2,Asotin
+4,2,Clarkston
+5,3,Benton City
+6,3,Grandview
+7,3,Kennewick
+8,3,Prosser
+9,3,Richland
+10,3,West Richland
+11,4,Cashmere
+12,4,Chelan
+13,4,Entiat
+14,4,Holden Village
+15,4,Leavenworth
+16,4,Malaga
+17,4,Manson
+18,4,Peshastin
+19,4,Wenatchee
+20,5,Clallam Bay
+21,5,Forks
+22,5,Neah Bay
+23,5,Port Angeles
+24,5,Sequim
+25,6,Amboy
+26,6,Battle Ground
+27,6,Brush Prairie
+28,6,Camas
+29,6,La Center
+30,6,Ridgefield
+31,6,Vancouver
+32,6,Washougal
+33,6,Woodland
+34,6,Yacolt
+35,7,Dayton
+36,8,Ariel
+37,8,Castle Rock
+38,8,Kalama
+39,8,Kelso
+40,8,Longview
+41,8,Ryderwood
+42,8,Silverlake
+43,8,Toutle
+44,8,Woodland
+45,9,Bridgeport Bar
+46,9,East Wenatchee
+47,9,Mansfield
+48,9,Orondo
+49,9,Rock Island
+50,9,Waterville
+51,10,Curlew
+52,10,Kettle Falls
+53,10,Republic
+54,11,Connell
+55,11,Eltopia
+56,11,Mesa
+57,11,Othello
+58,11,Pasco
+59,12,Pomeroy
+60,13,Coulee City
+61,13,Ephrata
+62,13,Grand Coulee
+63,13,Mattawa
+64,13,Moses Lake
+65,13,Othello
+66,13,Quincy
+67,13,Royal City
+68,13,Soap Lake
+69,13,Warden
+70,14,Aberdeen
+71,14,Cosmopolis
+72,14,Elma
+73,14,Grayland
+74,14,Hoquiam
+75,14,Mccleary
+76,14,Montesano
+77,14,Oakville
+78,14,Ocean Shores
+79,14,Pacific Beach
+80,14,Satsop
+81,14,Taholah
+82,14,Westport
+83,15,Camano Island
+84,15,Clinton
+85,15,Coupeville
+86,15,Freeland
+87,15,Greenbank
+88,15,Langley
+89,15,Oak Harbor
+90,16,Brinnon
+91,16,Chimacum
+92,16,Nordland
+93,16,Port Hadlock
+94,16,Port Ludlow
+95,16,Port Townsend
+96,16,Quilcene
+97,16,Sequim
+98,17,Algona
+99,17,Auburn
+100,17,Baring
+101,17,Beaux Arts
+102,17,Bellevue
+103,17,Black Diamond
+104,17,Bothell
+105,17,Burien
+106,17,Carnation
+107,17,Clyde Hill
+108,17,Covington
+109,17,Des Moines
+110,17,Duvall
+111,17,Enumclaw
+112,17,Fall City
+113,17,Federal Way
+114,17,Hunts Point
+115,17,Issaquah
+116,17,Kenmore
+117,17,Kent
+118,17,Kirkland
+119,17,Lake Forest Park
+120,17,Maple Valley
+121,17,Medina
+122,17,Mercer Island
+123,17,Milton
+124,17,Newcastle
+125,17,Normandy Park
+126,17,North Bend
+127,17,Pacific
+128,17,Preston
+129,17,Ravensdale
+130,17,Redmond
+131,17,Renton
+132,17,Sammamish
+133,17,Seatac
+134,17,Seattle
+135,17,Shoreline
+136,17,Skykomish
+137,17,Snoqualmie
+138,17,Snoqualmie Pass
+139,17,Tukwila
+140,17,Vashon
+141,17,Woodinville
+142,17,Yarrow Point
+143,18,Bainbridge Island
+144,18,Bremerton
+145,18,Gig Harbor
+146,18,Hansville
+147,18,Indianola
+148,18,Keyport
+149,18,Kingston
+150,18,Olalla
+151,18,Port Orchard
+152,18,Poulsbo
+153,18,Seabeck
+154,18,Silverdale
+155,18,Suquamish
+156,19,Cle Elum
+157,19,Easton
+158,19,Ellensburg
+159,19,Kittitas
+160,19,Ronald
+161,19,Roslyn
+162,19,Snoqualmie Pass
+163,20,Bingen
+164,20,Dallesport
+165,20,Goldendale
+166,20,Husum
+167,20,Lyle
+168,20,Maryhill
+169,20,Trout Lake
+170,20,White Salmon
+171,21,Centralia
+172,21,Chehalis
+173,21,Cinebar
+174,21,Curtis
+175,21,Mineral
+176,21,Morton
+177,21,Mossyrock
+178,21,Napavine
+179,21,Onalaska
+180,21,Packwood
+181,21,Rochester
+182,21,Toledo
+183,21,Vader
+184,21,Winlock
+185,22,Davenport
+186,22,Odessa
+187,22,Sprague
+188,23,Saint Jacob
+189,24,Allyn
+190,24,Belfair
+191,24,Elma
+192,24,Grapeview
+193,24,Hoodsport
+194,24,Lilliwaup
+195,24,McCleary
+196,24,Olympia
+197,24,Shelton
+198,24,Tahuya
+199,24,Union
+200,25,Brewster
+201,25,Coulee Dam
+202,25,Mazama
+203,25,Okanogan
+204,25,Omak
+205,25,Oroville
+206,25,Pateros
+207,25,Riverside
+208,25,Tonasket
+209,25,Twisp
+210,25,Winthrop
+211,26,Ilwaco
+212,26,Long Beach
+213,26,Nahcotta
+214,26,Naselle
+215,26,Ocean Park
+216,26,Raymond
+217,26,South Bend
+218,26,Surfside
+219,27,Cusick
+220,27,Elk
+221,27,Newport
+222,27,Usk
+223,28,Anderson Island
+224,28,Auburn
+225,28,Bonney Lake
+226,28,Buckley
+227,28,Carbonado
+228,28,Dupont
+229,28,Eatonville
+230,28,Edgewood
+231,28,Elbe
+232,28,Fife
+233,28,Fircrest
+234,28,Fox Island
+235,28,Gig Harbor
+236,28,Graham
+237,28,Joint Base Lewis Mcchord
+238,28,Kapowsin
+239,28,Lake Tapps
+240,28,Lakebay
+241,28,Lakewood
+242,28,Longbranch
+243,28,Milton
+244,28,Orting
+245,28,Parkland
+246,28,Puyallup
+247,28,Roy
+248,28,Ruston
+249,28,South Hill
+250,28,Spanaway
+251,28,Steilacoom
+252,28,Sumner
+253,28,Tacoma
+254,28,University Place
+255,28,Vaughn
+256,28,Wilkeson
+257,29,San Diego
+258,30,Eastsound
+259,30,Friday Harbor
+260,30,Lopez Island
+261,30,Olga
+262,30,Shaw Island
+263,31,Anacortes
+264,31,Bellingham
+265,31,Bow
+266,31,Burlington
+267,31,Concrete
+268,31,La Conner
+269,31,Mount Vernon
+270,31,Sedro Woolley
+271,31,Sedro-Woolley
+272,32,Carson
+273,32,North Bonneville
+274,32,Stevenson
+275,32,Underwood
+276,32,Washougal
+277,33,Arlington
+278,33,Bothell
+279,33,Brier
+280,33,Darrington
+281,33,Edmonds
+282,33,Everett
+283,33,Gold Bar
+284,33,Granite Falls
+285,33,Index
+286,33,Lake Stevens
+287,33,Lynnwood
+288,33,Marysville
+289,33,Mill Creek
+290,33,Monroe
+291,33,Mountlake Terrace
+292,33,Mukilteo
+293,33,Snohomish
+294,33,Stanwood
+295,33,Sultan
+296,33,Tulalip
+297,33,Woodinville
+298,33,Woodway
+299,34,Airway Heights
+300,34,Chattaroy
+301,34,Cheney
+302,34,Colbert
+303,34,Deer Park
+304,34,Elk
+305,34,Greenacres
+306,34,Liberty Lake
+307,34,Mead
+308,34,Medical Lake
+309,34,Mica
+310,34,Newman Lake
+311,34,Nine Mile Falls
+312,34,Otis Orchards
+313,34,Rockford
+314,34,Spangle
+315,34,Spokane
+316,34,Spokane Valley
+317,34,Valleyford
+318,34,Veradale
+319,34,Waverly
+320,35,Fredericksburg
+321,36,Chewelah
+322,36,Clayton
+323,36,Colville
+324,36,Deer Park
+325,36,Evans
+326,36,Hunters
+327,36,Kettle Falls
+328,36,Loon Lake
+329,36,Nine Mile Falls
+330,36,Springdale
+331,37,Bucoda
+332,37,Centralia
+333,37,Lacey
+334,37,Olympia
+335,37,Rainier
+336,37,Rochester
+337,37,Tenino
+338,37,Tumwater
+339,37,Yelm
+340,38,Cathlamet
+341,38,Naselle
+342,38,Skamokawa
+343,39,Burbank
+344,39,College Place
+345,39,Waitsburg
+346,39,Walla Walla
+347,40,Bellingham
+348,40,Blaine
+349,40,Custer
+350,40,Deming
+351,40,Everson
+352,40,Ferndale
+353,40,Lynden
+354,40,Maple Falls
+355,40,Point Roberts
+356,40,Sedro Woolley
+357,41,Colton
+358,41,Palouse
+359,41,Pullman
+360,41,Rosalia
+361,41,Tekoa
+362,42,Austin
+363,43,Cowiche
+364,43,Grandview
+365,43,Granger
+366,43,Mabton
+367,43,Moxee
+368,43,Naches
+369,43,Outlook
+370,43,Parker
+371,43,Selah
+372,43,Sunnyside
+373,43,Tieton
+374,43,Toppenish
+375,43,Union Gap
+376,43,Wapato
+377,43,Yakima
+378,43,Zillah
