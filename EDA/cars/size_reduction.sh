@@ -69,17 +69,18 @@ echo "Recodificando fabricantes en modelos"
 #Para cada modelo crea una línea de recodificación en la tabla general
 awk -F',' '{printf "sed -i -e #s/%s/%s/g# cars04.csv \n", $3, $1}' cars_models.csv| tr '#' "'" >> cars_models.sh
 #Para cada fabricante crea una línea de recodificación en la tabla general
-awk -F',' '{printf "sed -i -e #s/%s/%s/g# cars04.csv \n", $2, $1}' cars_makers.csv| tr '#' "'" >> cars_models_gral.sh
+awk -F',' '{printf "sed -i -e #s/\;%s\;/\;%s\;/g# cars04.csv \n", $2, $1}' cars_makers.csv| tr '#' "'" >> cars_models_gral.sh
 #Insertamos las cabeceras de la tabla cars_makers.csv  
 sed -i '1i cars_maker_PK,cars_maker_name' cars_makers.csv  
 #Insertamos las cabeceras de la tabla cars_models.csv    
-sed -i '1i cars_model_PK,cars_model_name' cars_models.csv    
+sed -i '1i cars_model_PK,cars_model_name' cars_models.csv
+chmod +x cars_models_gral.sh
+echo "Recodificando fabricantes "
+./cars_models_gral.sh  
 chmod +x cars_models.sh
 echo "Recodificando modelos "
 ./cars_models.sh
-chmod +x cars_models_gral.sh
-echo "Recodificando fabricantes "
-./cars_models_gral.sh
+
 
 # Eliminamos la columns de los fabricantes, que están codificados en la tabla de modelos.
 cut -d\; -f1,2,3,4,5,6,8,9,10,11,12,13,14,15,16,17 cars04.csv > cars05.csv
@@ -116,13 +117,13 @@ echo "Recodificando condades en ciudades"
 # elabora la tabla de Códigos postales  y ciudades
 echo "#!/usr/bin/bash" > cars_cities.sh 
 # tail -n+2 cars04.csv | cut -d\; -f3,5 --output-delimiter=","|sort|uniq|nl -s',' -w1 > cars_postal_codes.csv  No numero las lineas. la PK será e codigoportal
-tail -n+2 cars04.csv | cut -d\; -f3,5 --output-delimiter=","|sort|uniq > cars_postal_codes.csv  
+tail -n+2 cars04.csv | cut -d\; -f5,3 --output-delimiter=","|sort|uniq > cars_postal_codes.csv  
 #Para cada ciudad crea una línea de recodificación en postal_codes
 awk -F',' '{printf "sed -i -e #s/%s/%s/# cars_postal_codes.csv \n", $3, $1}' cars_cities.csv | tr '#' "'" >> cars_cities.sh  
 # Insertamos las cabeceras de la tabla cities.
 sed -i '1i cars_cities_PK,cars_cities_county_FK,cars_cities_name' cars_cities.csv
 # Insertamos las cabeceras de la tablacars_postal_codes.csv.
-sed -i '1i cars_posta_PK,cars_posta_cities_FK' cars_postal_codes.csv
+sed -i '1i cars_posta_cities_FK,cars_posta_PK' cars_postal_codes.csv
 chmod +x cars_cities.sh  
 echo "Recodificando Ciudades en codigos postales"
 ./cars_cities.sh
