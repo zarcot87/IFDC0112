@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+sed -i -e 's/,cars_count_name,/,cars_count_PK,/' cars_cities.csv 
 sed -i -e 's/,Adams,/,1,/' cars_cities.csv 
 sed -i -e 's/,Asotin,/,2,/' cars_cities.csv 
 sed -i -e 's/,Benton,/,3,/' cars_cities.csv 

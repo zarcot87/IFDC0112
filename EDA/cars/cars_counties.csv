@@ -1,3 +1,4 @@
+cars_count_PK,cars_count_name, cars_count_state_FK
 1,Adams,5
 2,Asotin,5
 3,Benton,5
