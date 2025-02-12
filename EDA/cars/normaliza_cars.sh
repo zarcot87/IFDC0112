@@ -82,7 +82,7 @@ awk -F',' '{printf "sed -i -e #s/\;%s\;/\;%s\;/g# cars04.csv \n", $2, $1}' cars_
 #Insertamos las cabeceras de la tabla cars_makers.csv  
 sed -i '1i cars_maker_PK,cars_maker_name' cars_makers.csv  
 #Insertamos las cabeceras de la tabla cars_models.csv    
-sed -i '1i cars_model_PK,cars_model_name' cars_models.csv
+sed -i '1i cars_model_PK,cars_maker_FK,cars_model_name' cars_models.csv
 chmod +x cars_models_gral.sh
 echo "Recodificando fabricantes "
 ./cars_models_gral.sh  

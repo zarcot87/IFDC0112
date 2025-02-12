@@ -1,4 +1,4 @@
-cars_model_PK,cars_model_name
+cars_model_PK,cars_maker_FK,cars_model_name
 1,1,ZDX
 2,2,TONALE
 3,3,A3
