@@ -115,7 +115,7 @@ echo "Recodificando estados en condados"
 
 # elabora la tabla de ciudades y condados
 echo "#!/usr/bin/bash" > cars_counties.sh
-tail -n+2 cars04.csv | cut -d\; -f3,2 --output-delimiter=","|sort -t',' -k2 |uniq|nl -s',' -w1 >cars_cities.csv  
+tail -n+2 cars04.csv | cut -d\; -f3,2 --output-delimiter=","|sort -t',' -k2 -r |uniq|nl -s',' -w1 >cars_cities.csv  
 #Para cada condado crea una línea de recodificación en ciudades
 awk -F',' '{printf "sed -i -e #s/\,%s\,/\,%s\,/# cars_cities.csv \n", $2, $1}' cars_counties.csv| tr '#' "'" >> cars_counties.sh  
 
@@ -151,4 +151,4 @@ echo "Recodificando Ciudades en codigos postales"
 # Eliminamos la columns de los fabricantes, que están codificados en la tabla de modelos.
 cut -d\; -f1,5,6,7,8,9,10,11,12,13,14,15,16,17 cars04.csv > cars_facts.csv
 echo "borrando archivos intermedios"
-#rm cars01.csv cars02.csv cars03.csv cars04.csv 
+rm cars01.csv cars02.csv cars03.csv cars04.csv 
