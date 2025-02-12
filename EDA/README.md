@@ -375,7 +375,7 @@ Si no usamos `&` lo ejecutamos secuencialmente.
 Con la ayuda de AWK, generamos un nuevo fichero en el que se substituye las columnas vacias por  "NA".
 
 ```bash
-awk -F';' -v OFS=';' '{for (i=1; i<=NF; i++) if ($i == "") $i = "NA"; print}' Electric_Vehicle_Population_Data.csv > cars01.csv
+awk -F';' -v OFS=';' '{for (i=1; i<=NF; i++) if ($i == "") $i = "NA"; print}' Electric_Vehicle_Population_Data.csv > cars_with_NA.csv
 ```
 
 OFS es el Output Field Separator.
@@ -384,3 +384,44 @@ NF se refiere al numero de columnas.
 
 $i se refiere a la una columna.
 
+Podemos filtrar con grep para encontrar qué líneas tenemos con campos "NA" y dejar la columna "DOL_Vehicle_ID", que es la columna 14, que es la única que tiene valores únicos en la tabla, que es la única que identifica a cada vehículo en un fichero claves a borrar.
+
+```bash
+grep "\;NA\;" cars01.csv | cut -d\; -f14 > claves_a_borrar.txt
+```
+
+Con ayuda de awk creamos el script de borrado de los registros con campos 
+
+
+```bash
+grep "\;NA\;" cars01.csv | cut -d\; -f14 | awk '{printf "sed -i #/%s/d# cars_with_NA.csv \n", $1}'| tr "#" "'" > borra_reg_NA.sh
+```
+
+Introducimos la línea shebang a nuestro script
+
+```bash
+sed -i '1i #!/usr/bin/bash' borra_reg_NA.sh 
+```
+
+Hemos generado este script
+
+```bash
+#!/usr/bin/bash
+sed -i '/250969379/d' cars_with_NA.csv 
+sed -i '/274102944/d' cars_with_NA.csv 
+sed -i '/270889363/d' cars_with_NA.csv 
+sed -i '/274203905/d' cars_with_NA.csv 
+sed -i '/274122320/d' cars_with_NA.csv 
+sed -i '/272915765/d' cars_with_NA.csv 
+sed -i '/272220189/d' cars_with_NA.csv 
+sed -i '/275628825/d' cars_with_NA.csv 
+sed -i '/274080355/d' cars_with_NA.csv 
+sed -i '/187492175/d' cars_with_NA.csv 
+sed -i '/274271035/d' cars_with_NA.csv 
+sed -i '/230917508/d' cars_with_NA.csv 
+sed -i '/275358807/d' cars_with_NA.csv 
+sed -i '/272497872/d' cars_with_NA.csv 
+sed -i '/283686021/d' cars_with_NA.csv 
+sed -i '/274293022/d' cars_with_NA.csv 
+```
+Lo ejecutamos para borrar los 16 registros que tienen campos "NA"

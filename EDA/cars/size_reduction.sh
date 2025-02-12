@@ -1,6 +1,15 @@
 # tratamiento de los campos faltantes
 echo "Llenando los campos vacios con NA"
 awk -F';' -v OFS=';' '{for (i=1; i<=NF; i++) if ($i == "") $i = "NA"; print}' Electric_Vehicle_Population_Data.csv > cars01.csv
+# Creamos el script de borrado de los registros con campos NA. Usamos la columna 14 "DOL_Vehicle_ID" que es el identificador único
+grep "\;NA\;" cars01.csv | cut -d\; -f14 | awk '{printf "sed -i #/%s/d# cars01.csv \n", $1}'| tr "#" "'" > cars_borra_reg_NA.sh
+sed -i '1i #!/usr/bin/bash' cars_borra_reg_NA.sh
+chmod +x cars_borra_reg_NA.sh
+echo "Aislamos los registros con NA"
+grep "\;NA\;" cars01.csv > cars_registros_NA.csv
+echo "Borrando los registros con NA"
+./cars_borra_reg_NA.sh
+
 # --------------------------------------------------
 # normaliza campo 9 tipo de vehículo
 # --------------------------------------------------
@@ -140,4 +149,6 @@ echo "Recodificando Ciudades en codigos postales"
 #echo "Recodificando Codigos postales en la tabla general"
 #./cars_postal_codes.sh
 # Eliminamos la columns de los fabricantes, que están codificados en la tabla de modelos.
-cut -d\; -f1,5,6,7,8,9,10,11,12,13,14,15,16,17 cars04.csv > cars05.csv
+cut -d\; -f1,5,6,7,8,9,10,11,12,13,14,15,16,17 cars04.csv > cars_facts.csv
+echo "borrando archivos intermedios"
+rm cars01.csv cars02.csv cars03.csv cars04.csv 

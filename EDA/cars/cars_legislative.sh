@@ -48,4 +48,3 @@ sed -i -e 's/6/46/g' cars02.csv
 sed -i -e 's/7/47/g' cars02.csv 
 sed -i -e 's/8/48/g' cars02.csv 
 sed -i -e 's/9/49/g' cars02.csv 
-sed -i -e 's/NA/50/g' cars02.csv 

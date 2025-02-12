@@ -186,194 +186,190 @@ sed -i -e 's/Winlock/184/' cars_postal_codes.csv
 sed -i -e 's/Davenport/185/' cars_postal_codes.csv 
 sed -i -e 's/Odessa/186/' cars_postal_codes.csv 
 sed -i -e 's/Sprague/187/' cars_postal_codes.csv 
-sed -i -e 's/Saint Jacob/188/' cars_postal_codes.csv 
-sed -i -e 's/Allyn/189/' cars_postal_codes.csv 
-sed -i -e 's/Belfair/190/' cars_postal_codes.csv 
-sed -i -e 's/Elma/191/' cars_postal_codes.csv 
-sed -i -e 's/Grapeview/192/' cars_postal_codes.csv 
-sed -i -e 's/Hoodsport/193/' cars_postal_codes.csv 
-sed -i -e 's/Lilliwaup/194/' cars_postal_codes.csv 
-sed -i -e 's/McCleary/195/' cars_postal_codes.csv 
-sed -i -e 's/Olympia/196/' cars_postal_codes.csv 
-sed -i -e 's/Shelton/197/' cars_postal_codes.csv 
-sed -i -e 's/Tahuya/198/' cars_postal_codes.csv 
-sed -i -e 's/Union/199/' cars_postal_codes.csv 
-sed -i -e 's/Brewster/200/' cars_postal_codes.csv 
-sed -i -e 's/Coulee Dam/201/' cars_postal_codes.csv 
-sed -i -e 's/Mazama/202/' cars_postal_codes.csv 
-sed -i -e 's/Okanogan/203/' cars_postal_codes.csv 
-sed -i -e 's/Omak/204/' cars_postal_codes.csv 
-sed -i -e 's/Oroville/205/' cars_postal_codes.csv 
-sed -i -e 's/Pateros/206/' cars_postal_codes.csv 
-sed -i -e 's/Riverside/207/' cars_postal_codes.csv 
-sed -i -e 's/Tonasket/208/' cars_postal_codes.csv 
-sed -i -e 's/Twisp/209/' cars_postal_codes.csv 
-sed -i -e 's/Winthrop/210/' cars_postal_codes.csv 
-sed -i -e 's/Ilwaco/211/' cars_postal_codes.csv 
-sed -i -e 's/Long Beach/212/' cars_postal_codes.csv 
-sed -i -e 's/Nahcotta/213/' cars_postal_codes.csv 
-sed -i -e 's/Naselle/214/' cars_postal_codes.csv 
-sed -i -e 's/Ocean Park/215/' cars_postal_codes.csv 
-sed -i -e 's/Raymond/216/' cars_postal_codes.csv 
-sed -i -e 's/South Bend/217/' cars_postal_codes.csv 
-sed -i -e 's/Surfside/218/' cars_postal_codes.csv 
-sed -i -e 's/Cusick/219/' cars_postal_codes.csv 
-sed -i -e 's/Elk/220/' cars_postal_codes.csv 
-sed -i -e 's/Newport/221/' cars_postal_codes.csv 
-sed -i -e 's/Usk/222/' cars_postal_codes.csv 
-sed -i -e 's/Anderson Island/223/' cars_postal_codes.csv 
-sed -i -e 's/Auburn/224/' cars_postal_codes.csv 
-sed -i -e 's/Bonney Lake/225/' cars_postal_codes.csv 
-sed -i -e 's/Buckley/226/' cars_postal_codes.csv 
-sed -i -e 's/Carbonado/227/' cars_postal_codes.csv 
-sed -i -e 's/Dupont/228/' cars_postal_codes.csv 
-sed -i -e 's/Eatonville/229/' cars_postal_codes.csv 
-sed -i -e 's/Edgewood/230/' cars_postal_codes.csv 
-sed -i -e 's/Elbe/231/' cars_postal_codes.csv 
-sed -i -e 's/Fife/232/' cars_postal_codes.csv 
-sed -i -e 's/Fircrest/233/' cars_postal_codes.csv 
-sed -i -e 's/Fox Island/234/' cars_postal_codes.csv 
-sed -i -e 's/Gig Harbor/235/' cars_postal_codes.csv 
-sed -i -e 's/Graham/236/' cars_postal_codes.csv 
-sed -i -e 's/Joint Base Lewis Mcchord/237/' cars_postal_codes.csv 
-sed -i -e 's/Kapowsin/238/' cars_postal_codes.csv 
-sed -i -e 's/Lake Tapps/239/' cars_postal_codes.csv 
-sed -i -e 's/Lakebay/240/' cars_postal_codes.csv 
-sed -i -e 's/Lakewood/241/' cars_postal_codes.csv 
-sed -i -e 's/Longbranch/242/' cars_postal_codes.csv 
-sed -i -e 's/Milton/243/' cars_postal_codes.csv 
-sed -i -e 's/Orting/244/' cars_postal_codes.csv 
-sed -i -e 's/Parkland/245/' cars_postal_codes.csv 
-sed -i -e 's/Puyallup/246/' cars_postal_codes.csv 
-sed -i -e 's/Roy/247/' cars_postal_codes.csv 
-sed -i -e 's/Ruston/248/' cars_postal_codes.csv 
-sed -i -e 's/South Hill/249/' cars_postal_codes.csv 
-sed -i -e 's/Spanaway/250/' cars_postal_codes.csv 
-sed -i -e 's/Steilacoom/251/' cars_postal_codes.csv 
-sed -i -e 's/Sumner/252/' cars_postal_codes.csv 
-sed -i -e 's/Tacoma/253/' cars_postal_codes.csv 
-sed -i -e 's/University Place/254/' cars_postal_codes.csv 
-sed -i -e 's/Vaughn/255/' cars_postal_codes.csv 
-sed -i -e 's/Wilkeson/256/' cars_postal_codes.csv 
-sed -i -e 's/San Diego/257/' cars_postal_codes.csv 
-sed -i -e 's/Eastsound/258/' cars_postal_codes.csv 
-sed -i -e 's/Friday Harbor/259/' cars_postal_codes.csv 
-sed -i -e 's/Lopez Island/260/' cars_postal_codes.csv 
-sed -i -e 's/Olga/261/' cars_postal_codes.csv 
-sed -i -e 's/Shaw Island/262/' cars_postal_codes.csv 
-sed -i -e 's/Anacortes/263/' cars_postal_codes.csv 
-sed -i -e 's/Bellingham/264/' cars_postal_codes.csv 
-sed -i -e 's/Bow/265/' cars_postal_codes.csv 
-sed -i -e 's/Burlington/266/' cars_postal_codes.csv 
-sed -i -e 's/Concrete/267/' cars_postal_codes.csv 
-sed -i -e 's/La Conner/268/' cars_postal_codes.csv 
-sed -i -e 's/Mount Vernon/269/' cars_postal_codes.csv 
-sed -i -e 's/Sedro Woolley/270/' cars_postal_codes.csv 
-sed -i -e 's/Sedro-Woolley/271/' cars_postal_codes.csv 
-sed -i -e 's/Carson/272/' cars_postal_codes.csv 
-sed -i -e 's/North Bonneville/273/' cars_postal_codes.csv 
-sed -i -e 's/Stevenson/274/' cars_postal_codes.csv 
-sed -i -e 's/Underwood/275/' cars_postal_codes.csv 
-sed -i -e 's/Washougal/276/' cars_postal_codes.csv 
-sed -i -e 's/Arlington/277/' cars_postal_codes.csv 
-sed -i -e 's/Bothell/278/' cars_postal_codes.csv 
-sed -i -e 's/Brier/279/' cars_postal_codes.csv 
-sed -i -e 's/Darrington/280/' cars_postal_codes.csv 
-sed -i -e 's/Edmonds/281/' cars_postal_codes.csv 
-sed -i -e 's/Everett/282/' cars_postal_codes.csv 
-sed -i -e 's/Gold Bar/283/' cars_postal_codes.csv 
-sed -i -e 's/Granite Falls/284/' cars_postal_codes.csv 
-sed -i -e 's/Index/285/' cars_postal_codes.csv 
-sed -i -e 's/Lake Stevens/286/' cars_postal_codes.csv 
-sed -i -e 's/Lynnwood/287/' cars_postal_codes.csv 
-sed -i -e 's/Marysville/288/' cars_postal_codes.csv 
-sed -i -e 's/Mill Creek/289/' cars_postal_codes.csv 
-sed -i -e 's/Monroe/290/' cars_postal_codes.csv 
-sed -i -e 's/Mountlake Terrace/291/' cars_postal_codes.csv 
-sed -i -e 's/Mukilteo/292/' cars_postal_codes.csv 
-sed -i -e 's/Snohomish/293/' cars_postal_codes.csv 
-sed -i -e 's/Stanwood/294/' cars_postal_codes.csv 
-sed -i -e 's/Sultan/295/' cars_postal_codes.csv 
-sed -i -e 's/Tulalip/296/' cars_postal_codes.csv 
-sed -i -e 's/Woodinville/297/' cars_postal_codes.csv 
-sed -i -e 's/Woodway/298/' cars_postal_codes.csv 
-sed -i -e 's/Airway Heights/299/' cars_postal_codes.csv 
-sed -i -e 's/Chattaroy/300/' cars_postal_codes.csv 
-sed -i -e 's/Cheney/301/' cars_postal_codes.csv 
-sed -i -e 's/Colbert/302/' cars_postal_codes.csv 
-sed -i -e 's/Deer Park/303/' cars_postal_codes.csv 
-sed -i -e 's/Elk/304/' cars_postal_codes.csv 
-sed -i -e 's/Greenacres/305/' cars_postal_codes.csv 
-sed -i -e 's/Liberty Lake/306/' cars_postal_codes.csv 
-sed -i -e 's/Mead/307/' cars_postal_codes.csv 
-sed -i -e 's/Medical Lake/308/' cars_postal_codes.csv 
-sed -i -e 's/Mica/309/' cars_postal_codes.csv 
-sed -i -e 's/Newman Lake/310/' cars_postal_codes.csv 
-sed -i -e 's/Nine Mile Falls/311/' cars_postal_codes.csv 
-sed -i -e 's/Otis Orchards/312/' cars_postal_codes.csv 
-sed -i -e 's/Rockford/313/' cars_postal_codes.csv 
-sed -i -e 's/Spangle/314/' cars_postal_codes.csv 
-sed -i -e 's/Spokane/315/' cars_postal_codes.csv 
-sed -i -e 's/Spokane Valley/316/' cars_postal_codes.csv 
-sed -i -e 's/Valleyford/317/' cars_postal_codes.csv 
-sed -i -e 's/Veradale/318/' cars_postal_codes.csv 
-sed -i -e 's/Waverly/319/' cars_postal_codes.csv 
-sed -i -e 's/Fredericksburg/320/' cars_postal_codes.csv 
-sed -i -e 's/Chewelah/321/' cars_postal_codes.csv 
-sed -i -e 's/Clayton/322/' cars_postal_codes.csv 
-sed -i -e 's/Colville/323/' cars_postal_codes.csv 
-sed -i -e 's/Deer Park/324/' cars_postal_codes.csv 
-sed -i -e 's/Evans/325/' cars_postal_codes.csv 
-sed -i -e 's/Hunters/326/' cars_postal_codes.csv 
-sed -i -e 's/Kettle Falls/327/' cars_postal_codes.csv 
-sed -i -e 's/Loon Lake/328/' cars_postal_codes.csv 
-sed -i -e 's/Nine Mile Falls/329/' cars_postal_codes.csv 
-sed -i -e 's/Springdale/330/' cars_postal_codes.csv 
-sed -i -e 's/Bucoda/331/' cars_postal_codes.csv 
-sed -i -e 's/Centralia/332/' cars_postal_codes.csv 
-sed -i -e 's/Lacey/333/' cars_postal_codes.csv 
-sed -i -e 's/Olympia/334/' cars_postal_codes.csv 
-sed -i -e 's/Rainier/335/' cars_postal_codes.csv 
-sed -i -e 's/Rochester/336/' cars_postal_codes.csv 
-sed -i -e 's/Tenino/337/' cars_postal_codes.csv 
-sed -i -e 's/Tumwater/338/' cars_postal_codes.csv 
-sed -i -e 's/Yelm/339/' cars_postal_codes.csv 
-sed -i -e 's/Cathlamet/340/' cars_postal_codes.csv 
-sed -i -e 's/Naselle/341/' cars_postal_codes.csv 
-sed -i -e 's/Skamokawa/342/' cars_postal_codes.csv 
-sed -i -e 's/Burbank/343/' cars_postal_codes.csv 
-sed -i -e 's/College Place/344/' cars_postal_codes.csv 
-sed -i -e 's/Waitsburg/345/' cars_postal_codes.csv 
-sed -i -e 's/Walla Walla/346/' cars_postal_codes.csv 
-sed -i -e 's/Bellingham/347/' cars_postal_codes.csv 
-sed -i -e 's/Blaine/348/' cars_postal_codes.csv 
-sed -i -e 's/Custer/349/' cars_postal_codes.csv 
-sed -i -e 's/Deming/350/' cars_postal_codes.csv 
-sed -i -e 's/Everson/351/' cars_postal_codes.csv 
-sed -i -e 's/Ferndale/352/' cars_postal_codes.csv 
-sed -i -e 's/Lynden/353/' cars_postal_codes.csv 
-sed -i -e 's/Maple Falls/354/' cars_postal_codes.csv 
-sed -i -e 's/Point Roberts/355/' cars_postal_codes.csv 
-sed -i -e 's/Sedro Woolley/356/' cars_postal_codes.csv 
-sed -i -e 's/Colton/357/' cars_postal_codes.csv 
-sed -i -e 's/Palouse/358/' cars_postal_codes.csv 
-sed -i -e 's/Pullman/359/' cars_postal_codes.csv 
-sed -i -e 's/Rosalia/360/' cars_postal_codes.csv 
-sed -i -e 's/Tekoa/361/' cars_postal_codes.csv 
-sed -i -e 's/Austin/362/' cars_postal_codes.csv 
-sed -i -e 's/Cowiche/363/' cars_postal_codes.csv 
-sed -i -e 's/Grandview/364/' cars_postal_codes.csv 
-sed -i -e 's/Granger/365/' cars_postal_codes.csv 
-sed -i -e 's/Mabton/366/' cars_postal_codes.csv 
-sed -i -e 's/Moxee/367/' cars_postal_codes.csv 
-sed -i -e 's/Naches/368/' cars_postal_codes.csv 
-sed -i -e 's/Outlook/369/' cars_postal_codes.csv 
-sed -i -e 's/Parker/370/' cars_postal_codes.csv 
-sed -i -e 's/Selah/371/' cars_postal_codes.csv 
-sed -i -e 's/Sunnyside/372/' cars_postal_codes.csv 
-sed -i -e 's/Tieton/373/' cars_postal_codes.csv 
-sed -i -e 's/Toppenish/374/' cars_postal_codes.csv 
-sed -i -e 's/Union Gap/375/' cars_postal_codes.csv 
-sed -i -e 's/Wapato/376/' cars_postal_codes.csv 
-sed -i -e 's/Yakima/377/' cars_postal_codes.csv 
-sed -i -e 's/Zillah/378/' cars_postal_codes.csv 
+sed -i -e 's/Allyn/188/' cars_postal_codes.csv 
+sed -i -e 's/Belfair/189/' cars_postal_codes.csv 
+sed -i -e 's/Elma/190/' cars_postal_codes.csv 
+sed -i -e 's/Grapeview/191/' cars_postal_codes.csv 
+sed -i -e 's/Hoodsport/192/' cars_postal_codes.csv 
+sed -i -e 's/Lilliwaup/193/' cars_postal_codes.csv 
+sed -i -e 's/McCleary/194/' cars_postal_codes.csv 
+sed -i -e 's/Olympia/195/' cars_postal_codes.csv 
+sed -i -e 's/Shelton/196/' cars_postal_codes.csv 
+sed -i -e 's/Tahuya/197/' cars_postal_codes.csv 
+sed -i -e 's/Union/198/' cars_postal_codes.csv 
+sed -i -e 's/Brewster/199/' cars_postal_codes.csv 
+sed -i -e 's/Coulee Dam/200/' cars_postal_codes.csv 
+sed -i -e 's/Mazama/201/' cars_postal_codes.csv 
+sed -i -e 's/Okanogan/202/' cars_postal_codes.csv 
+sed -i -e 's/Omak/203/' cars_postal_codes.csv 
+sed -i -e 's/Oroville/204/' cars_postal_codes.csv 
+sed -i -e 's/Pateros/205/' cars_postal_codes.csv 
+sed -i -e 's/Riverside/206/' cars_postal_codes.csv 
+sed -i -e 's/Tonasket/207/' cars_postal_codes.csv 
+sed -i -e 's/Twisp/208/' cars_postal_codes.csv 
+sed -i -e 's/Winthrop/209/' cars_postal_codes.csv 
+sed -i -e 's/Ilwaco/210/' cars_postal_codes.csv 
+sed -i -e 's/Long Beach/211/' cars_postal_codes.csv 
+sed -i -e 's/Nahcotta/212/' cars_postal_codes.csv 
+sed -i -e 's/Naselle/213/' cars_postal_codes.csv 
+sed -i -e 's/Ocean Park/214/' cars_postal_codes.csv 
+sed -i -e 's/Raymond/215/' cars_postal_codes.csv 
+sed -i -e 's/South Bend/216/' cars_postal_codes.csv 
+sed -i -e 's/Surfside/217/' cars_postal_codes.csv 
+sed -i -e 's/Cusick/218/' cars_postal_codes.csv 
+sed -i -e 's/Elk/219/' cars_postal_codes.csv 
+sed -i -e 's/Newport/220/' cars_postal_codes.csv 
+sed -i -e 's/Usk/221/' cars_postal_codes.csv 
+sed -i -e 's/Anderson Island/222/' cars_postal_codes.csv 
+sed -i -e 's/Auburn/223/' cars_postal_codes.csv 
+sed -i -e 's/Bonney Lake/224/' cars_postal_codes.csv 
+sed -i -e 's/Buckley/225/' cars_postal_codes.csv 
+sed -i -e 's/Carbonado/226/' cars_postal_codes.csv 
+sed -i -e 's/Dupont/227/' cars_postal_codes.csv 
+sed -i -e 's/Eatonville/228/' cars_postal_codes.csv 
+sed -i -e 's/Edgewood/229/' cars_postal_codes.csv 
+sed -i -e 's/Elbe/230/' cars_postal_codes.csv 
+sed -i -e 's/Fife/231/' cars_postal_codes.csv 
+sed -i -e 's/Fircrest/232/' cars_postal_codes.csv 
+sed -i -e 's/Fox Island/233/' cars_postal_codes.csv 
+sed -i -e 's/Gig Harbor/234/' cars_postal_codes.csv 
+sed -i -e 's/Graham/235/' cars_postal_codes.csv 
+sed -i -e 's/Joint Base Lewis Mcchord/236/' cars_postal_codes.csv 
+sed -i -e 's/Kapowsin/237/' cars_postal_codes.csv 
+sed -i -e 's/Lake Tapps/238/' cars_postal_codes.csv 
+sed -i -e 's/Lakebay/239/' cars_postal_codes.csv 
+sed -i -e 's/Lakewood/240/' cars_postal_codes.csv 
+sed -i -e 's/Longbranch/241/' cars_postal_codes.csv 
+sed -i -e 's/Milton/242/' cars_postal_codes.csv 
+sed -i -e 's/Orting/243/' cars_postal_codes.csv 
+sed -i -e 's/Parkland/244/' cars_postal_codes.csv 
+sed -i -e 's/Puyallup/245/' cars_postal_codes.csv 
+sed -i -e 's/Roy/246/' cars_postal_codes.csv 
+sed -i -e 's/Ruston/247/' cars_postal_codes.csv 
+sed -i -e 's/South Hill/248/' cars_postal_codes.csv 
+sed -i -e 's/Spanaway/249/' cars_postal_codes.csv 
+sed -i -e 's/Steilacoom/250/' cars_postal_codes.csv 
+sed -i -e 's/Sumner/251/' cars_postal_codes.csv 
+sed -i -e 's/Tacoma/252/' cars_postal_codes.csv 
+sed -i -e 's/University Place/253/' cars_postal_codes.csv 
+sed -i -e 's/Vaughn/254/' cars_postal_codes.csv 
+sed -i -e 's/Wilkeson/255/' cars_postal_codes.csv 
+sed -i -e 's/Eastsound/256/' cars_postal_codes.csv 
+sed -i -e 's/Friday Harbor/257/' cars_postal_codes.csv 
+sed -i -e 's/Lopez Island/258/' cars_postal_codes.csv 
+sed -i -e 's/Olga/259/' cars_postal_codes.csv 
+sed -i -e 's/Shaw Island/260/' cars_postal_codes.csv 
+sed -i -e 's/Anacortes/261/' cars_postal_codes.csv 
+sed -i -e 's/Bellingham/262/' cars_postal_codes.csv 
+sed -i -e 's/Bow/263/' cars_postal_codes.csv 
+sed -i -e 's/Burlington/264/' cars_postal_codes.csv 
+sed -i -e 's/Concrete/265/' cars_postal_codes.csv 
+sed -i -e 's/La Conner/266/' cars_postal_codes.csv 
+sed -i -e 's/Mount Vernon/267/' cars_postal_codes.csv 
+sed -i -e 's/Sedro Woolley/268/' cars_postal_codes.csv 
+sed -i -e 's/Sedro-Woolley/269/' cars_postal_codes.csv 
+sed -i -e 's/Carson/270/' cars_postal_codes.csv 
+sed -i -e 's/North Bonneville/271/' cars_postal_codes.csv 
+sed -i -e 's/Stevenson/272/' cars_postal_codes.csv 
+sed -i -e 's/Underwood/273/' cars_postal_codes.csv 
+sed -i -e 's/Washougal/274/' cars_postal_codes.csv 
+sed -i -e 's/Arlington/275/' cars_postal_codes.csv 
+sed -i -e 's/Bothell/276/' cars_postal_codes.csv 
+sed -i -e 's/Brier/277/' cars_postal_codes.csv 
+sed -i -e 's/Darrington/278/' cars_postal_codes.csv 
+sed -i -e 's/Edmonds/279/' cars_postal_codes.csv 
+sed -i -e 's/Everett/280/' cars_postal_codes.csv 
+sed -i -e 's/Gold Bar/281/' cars_postal_codes.csv 
+sed -i -e 's/Granite Falls/282/' cars_postal_codes.csv 
+sed -i -e 's/Index/283/' cars_postal_codes.csv 
+sed -i -e 's/Lake Stevens/284/' cars_postal_codes.csv 
+sed -i -e 's/Lynnwood/285/' cars_postal_codes.csv 
+sed -i -e 's/Marysville/286/' cars_postal_codes.csv 
+sed -i -e 's/Mill Creek/287/' cars_postal_codes.csv 
+sed -i -e 's/Monroe/288/' cars_postal_codes.csv 
+sed -i -e 's/Mountlake Terrace/289/' cars_postal_codes.csv 
+sed -i -e 's/Mukilteo/290/' cars_postal_codes.csv 
+sed -i -e 's/Snohomish/291/' cars_postal_codes.csv 
+sed -i -e 's/Stanwood/292/' cars_postal_codes.csv 
+sed -i -e 's/Sultan/293/' cars_postal_codes.csv 
+sed -i -e 's/Tulalip/294/' cars_postal_codes.csv 
+sed -i -e 's/Woodinville/295/' cars_postal_codes.csv 
+sed -i -e 's/Woodway/296/' cars_postal_codes.csv 
+sed -i -e 's/Airway Heights/297/' cars_postal_codes.csv 
+sed -i -e 's/Chattaroy/298/' cars_postal_codes.csv 
+sed -i -e 's/Cheney/299/' cars_postal_codes.csv 
+sed -i -e 's/Colbert/300/' cars_postal_codes.csv 
+sed -i -e 's/Deer Park/301/' cars_postal_codes.csv 
+sed -i -e 's/Elk/302/' cars_postal_codes.csv 
+sed -i -e 's/Greenacres/303/' cars_postal_codes.csv 
+sed -i -e 's/Liberty Lake/304/' cars_postal_codes.csv 
+sed -i -e 's/Mead/305/' cars_postal_codes.csv 
+sed -i -e 's/Medical Lake/306/' cars_postal_codes.csv 
+sed -i -e 's/Mica/307/' cars_postal_codes.csv 
+sed -i -e 's/Newman Lake/308/' cars_postal_codes.csv 
+sed -i -e 's/Nine Mile Falls/309/' cars_postal_codes.csv 
+sed -i -e 's/Otis Orchards/310/' cars_postal_codes.csv 
+sed -i -e 's/Rockford/311/' cars_postal_codes.csv 
+sed -i -e 's/Spangle/312/' cars_postal_codes.csv 
+sed -i -e 's/Spokane/313/' cars_postal_codes.csv 
+sed -i -e 's/Spokane Valley/314/' cars_postal_codes.csv 
+sed -i -e 's/Valleyford/315/' cars_postal_codes.csv 
+sed -i -e 's/Veradale/316/' cars_postal_codes.csv 
+sed -i -e 's/Waverly/317/' cars_postal_codes.csv 
+sed -i -e 's/Chewelah/318/' cars_postal_codes.csv 
+sed -i -e 's/Clayton/319/' cars_postal_codes.csv 
+sed -i -e 's/Colville/320/' cars_postal_codes.csv 
+sed -i -e 's/Deer Park/321/' cars_postal_codes.csv 
+sed -i -e 's/Evans/322/' cars_postal_codes.csv 
+sed -i -e 's/Hunters/323/' cars_postal_codes.csv 
+sed -i -e 's/Kettle Falls/324/' cars_postal_codes.csv 
+sed -i -e 's/Loon Lake/325/' cars_postal_codes.csv 
+sed -i -e 's/Nine Mile Falls/326/' cars_postal_codes.csv 
+sed -i -e 's/Springdale/327/' cars_postal_codes.csv 
+sed -i -e 's/Bucoda/328/' cars_postal_codes.csv 
+sed -i -e 's/Centralia/329/' cars_postal_codes.csv 
+sed -i -e 's/Lacey/330/' cars_postal_codes.csv 
+sed -i -e 's/Olympia/331/' cars_postal_codes.csv 
+sed -i -e 's/Rainier/332/' cars_postal_codes.csv 
+sed -i -e 's/Rochester/333/' cars_postal_codes.csv 
+sed -i -e 's/Tenino/334/' cars_postal_codes.csv 
+sed -i -e 's/Tumwater/335/' cars_postal_codes.csv 
+sed -i -e 's/Yelm/336/' cars_postal_codes.csv 
+sed -i -e 's/Cathlamet/337/' cars_postal_codes.csv 
+sed -i -e 's/Naselle/338/' cars_postal_codes.csv 
+sed -i -e 's/Skamokawa/339/' cars_postal_codes.csv 
+sed -i -e 's/Burbank/340/' cars_postal_codes.csv 
+sed -i -e 's/College Place/341/' cars_postal_codes.csv 
+sed -i -e 's/Waitsburg/342/' cars_postal_codes.csv 
+sed -i -e 's/Walla Walla/343/' cars_postal_codes.csv 
+sed -i -e 's/Bellingham/344/' cars_postal_codes.csv 
+sed -i -e 's/Blaine/345/' cars_postal_codes.csv 
+sed -i -e 's/Custer/346/' cars_postal_codes.csv 
+sed -i -e 's/Deming/347/' cars_postal_codes.csv 
+sed -i -e 's/Everson/348/' cars_postal_codes.csv 
+sed -i -e 's/Ferndale/349/' cars_postal_codes.csv 
+sed -i -e 's/Lynden/350/' cars_postal_codes.csv 
+sed -i -e 's/Maple Falls/351/' cars_postal_codes.csv 
+sed -i -e 's/Point Roberts/352/' cars_postal_codes.csv 
+sed -i -e 's/Sedro Woolley/353/' cars_postal_codes.csv 
+sed -i -e 's/Colton/354/' cars_postal_codes.csv 
+sed -i -e 's/Palouse/355/' cars_postal_codes.csv 
+sed -i -e 's/Pullman/356/' cars_postal_codes.csv 
+sed -i -e 's/Rosalia/357/' cars_postal_codes.csv 
+sed -i -e 's/Tekoa/358/' cars_postal_codes.csv 
+sed -i -e 's/Cowiche/359/' cars_postal_codes.csv 
+sed -i -e 's/Grandview/360/' cars_postal_codes.csv 
+sed -i -e 's/Granger/361/' cars_postal_codes.csv 
+sed -i -e 's/Mabton/362/' cars_postal_codes.csv 
+sed -i -e 's/Moxee/363/' cars_postal_codes.csv 
+sed -i -e 's/Naches/364/' cars_postal_codes.csv 
+sed -i -e 's/Outlook/365/' cars_postal_codes.csv 
+sed -i -e 's/Parker/366/' cars_postal_codes.csv 
+sed -i -e 's/Selah/367/' cars_postal_codes.csv 
+sed -i -e 's/Sunnyside/368/' cars_postal_codes.csv 
+sed -i -e 's/Tieton/369/' cars_postal_codes.csv 
+sed -i -e 's/Toppenish/370/' cars_postal_codes.csv 
+sed -i -e 's/Union Gap/371/' cars_postal_codes.csv 
+sed -i -e 's/Wapato/372/' cars_postal_codes.csv 
+sed -i -e 's/Yakima/373/' cars_postal_codes.csv 
+sed -i -e 's/Zillah/374/' cars_postal_codes.csv 
